@@ -6,7 +6,7 @@ export default function getURL(
 ): string {
   const extendedStr = (extended: string): string => {
     if (extended === 'true') {
-      return 'extended_';
+      return 'extended_withdeploy_';
     } else {
       return '';
       // } else {
